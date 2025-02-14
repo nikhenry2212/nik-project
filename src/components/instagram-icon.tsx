@@ -1,4 +1,10 @@
-export const IconSocial = ({src,href}) => {
+interface IconSocialProps {
+    src: string;
+    href: string;
+  }
+
+
+export const IconSocial = ({src,href}: IconSocialProps) => {
     return (
         <a target="_blank" href={href}>
 
