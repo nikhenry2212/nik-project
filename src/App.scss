@@ -208,4 +208,28 @@ main {
       }
     }
   }
+
+  @media (max-width: 768px) {
+    .header-container  {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      gap: 12px;
+      // padding: 24px;
+      img{
+        width: 8rem;
+      }
+
+      button{
+        border-radius: 20px;
+        border: none;
+        font-weight: 600;
+        font-size: 12px;
+        background-color: transparent;
+        overflow: hidden;
+        position: relative;
+      }
+    }
+  }
 }

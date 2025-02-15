@@ -11,9 +11,9 @@ function App() {
       <header className='header-container'>
         <img src="/Logo.svg" alt="" />
         <nav className="menu-options">
-          <a href="">What we offer</a>
-          <a href="">How it works</a>
-          <a href="">Portfolio</a>
+          <a href="">Incio</a>
+          <a href="">Sobre mim</a>
+          <a href="">You tube</a>
         </nav>
         <button>
           <div className='btn-face-white'>Contact us <ArrowIcon /></div>
